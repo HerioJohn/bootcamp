@@ -1,0 +1,54 @@
+// 11/22/23 Wed Conclusion
+
+String value 無法使用 == ， 用 equal 代替
+
+例子：
+
+if (s1.equals(s2)) {
+  System.out.println("s1 is equals to s2");
+}
+
+例子 2：
+
+if ("hello".equals(s2)) {
+  System.out.println("s1 is equals to s2");
+}
+
+！！！ 絕對不能這樣寫 ！！！
+
+if (s2.equals("hello")) {
+  System.out.println("s1 is equals to s2");  <- 錯誤示範
+}
+
+///////////////////////////////////////////////
+
+c2 = c1++ -> 先使用c2的值，然後 c1 自己 +1
+
+c2 = ++c1 -> c1 先自己 +1，然後使用 c2 的值
+
+///////////////////////////////////////////////
+
+if statement
+
+&& 條件同時
+|| 條件或者
+! 條件否定
+
+&& 的優先度會大於 ||，有沒有 () 也一樣
+
+if (b1) -> 意思是 if b1 == true
+{
+
+}
+
+if (!b1) -> 意思是 if b1 == false
+{
+
+}
+
+//////////////////////////////////////////////
+
+String result = a > b ? "True" : "False"; -> 如果 a 大於 b，把 "True" 這個值放進 result 裡，否則 把 "False" 放進 result 裡
+
+
+
