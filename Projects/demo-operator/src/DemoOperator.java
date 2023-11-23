@@ -147,6 +147,26 @@ public class DemoOperator {
 
         System.out.println("The Total Amount will be " + totalAmount);
 
+//------------------------------------------------------------------------------//
+
+        String applewebsite = "www.apple.com";
+        if (applewebsite.length() < 10 || "apple".equals(applewebsite)){
+            System.out.println("length < 10 or www.apple.com");
+        }
+
+        String s = ""; // empty string, length = 0
+        System.out.println(s.length()); //0
+        s += "hello";
+
+        if (!s.isEmpty()){ // if string s is not Empty
+            System.out.println("s is NOT empty!");
+        }
+
+
+            
+
+
+
         
 
 
