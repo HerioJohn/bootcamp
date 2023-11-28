@@ -70,8 +70,6 @@ public class DemoForLoop {
 
         System.out.println("The sum is : " + sum);
 
-        // -----------------------------------------------------------------//
-
         // break
         // sum up all odd number (0 - 100)
         // i) sum <= 200
@@ -81,15 +79,36 @@ public class DemoForLoop {
 
         for (int i = 0; i < 300; i++) {
 
-            if (sum3 > 200) {
+            if (i % 2 == 0 && sum3 <= 200) {
+                continue;
+            } 
+            else if (i % 2 != 0 && sum3 <= 200) {
+                sum3 += i;
+            }       
+            else {
                 System.out.println("The sum3 will be: " + sum3);
                 System.out.println("And the loop will be ended at:" + i);
                 break;
-            } 
-            else if (i % 2 == 0)
+            }
+
+        }
+
+// -----------------------------------------------------------------//
+
+        String str = "abc def ghi";
+        char target = 'f';
+        int n = 0;
+
+        for (n = 0; n < str.length(); n++) {
+
+            if (str.charAt(n) != 'f')
+            {
                 continue;
-            else
-                sum3 += i;
+            }
+            else{
+                System.out.println("Got it! I found the letter f! It is at the position " + (n + 1) + " of the whole sentence.");
+            }
+
 
         }
 
