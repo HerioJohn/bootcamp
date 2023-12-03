@@ -55,6 +55,33 @@ public class DemonArray3 {
     System.out.println("Max Value of Array 3 is: " + maxValue);
     System.out.println(Arrays.toString(arr3));
 
+    //-----------------------------------------------------------
+
+    String s = "abcabcabcabbc";
+
+    // Approach 1
+
+    char[] arr5 = new char[s.length()];
+
+    for (int i = 0; i < s.length(); i++){
+      arr5[i] = s.charAt(i);
+
+    // Approach 2
+
+    char[] arr6 = s.toCharArray();
+    }
+
+    // replace a -> c
+
+    char[] arr7 = new char[s.length()];
+
+    for (int i = 0; i < s.length(); i++){
+      if (s.charAt(i) == 'a'){
+        arr7[i] = 'c';
+        continue;
+      }
+    }
+
 
   }
 }
