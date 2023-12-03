@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Example Output
  * Second Max = 230
@@ -11,15 +13,29 @@ public class JavaQuest8_Submission {
     int[] nums4 = new int[] { -10, 5, 100, 240, 240, 80 }; // Second Max = 240
 
     // Your program should be able to handle all the above test case.
-    int secondMax;
+    int secondMax = Integer.MIN_VALUE;
     // code here
+    int firstMax = Integer.MIN_VALUE;
 
-    for (int i = 0; i < nums.length ; i++) {
-      
+    int arr[] = { -10, 5, 100, 240, 230, 80 };
+
+    for (int i = 0; i < arr.length; i++ ){
+
+      if (arr[i] > firstMax){
+        secondMax = firstMax;
+        firstMax = arr[i];
+      }
+
+      if (arr[i] < firstMax && secondMax < arr[i])
+      {
+        secondMax = arr[i];
+      }
+
     }
 
-
-
+    System.out.println("The FirstMax number is: " + firstMax);
+  System.out.println("The SecondMax number is: " + secondMax);
+  
   }
 
 }
