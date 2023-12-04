@@ -79,6 +79,14 @@ public class Note_2_StringMethod {
     String replaceResult = name.replace('m', 'c');
 
     System.out.println("After replace, the name will become: " + replaceResult); // Tommy -> Toccy
+
+    // valueOf()
+
+    int num = 100;
+
+    String numText = String.valueOf(num);
+
+    System.out.println("I turn the int into a String! Here is the result: " + numText); //100
     
   }
   

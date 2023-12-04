@@ -13,7 +13,6 @@ public class Note_1B_StaticMethod {
 
     String s = "This is a very Longggggggggggggggggggggggggggggggg sentencesssss.";
     System.out.println("The original long sentence will become: " + empty(s));
-    
   }
 
   // Method 1

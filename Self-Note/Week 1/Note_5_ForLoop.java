@@ -10,15 +10,14 @@ public class Note_5_ForLoop {
  
 // continue
 
-// 使用continue，只 print out 除 0 之外的雙數。
+// 使用continue，只 print out 雙數。
 
     for (int a = 0; a < 10; a++) {
       if (a % 2 != 0){
         continue;
       }
-      else if (a != 0 && a % 2 == 0) {
+      
         System.out.println("a = " + a);  
-      }
     }
 
 // break
