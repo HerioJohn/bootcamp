@@ -1,7 +1,5 @@
 public class Note_2_Array {
 
-
-
   public static void main(String[] args) {
     
     // array = used to store multiple values in a single variable

@@ -19,6 +19,13 @@ public class Note_3_Ifstatement {
       System.out.println("Your age is " + age + ", You are a child!");
     }
 
+    boolean b = false;
+
+    if (b)
+    System.out.println("b is true.");
+    else
+    System.out.println("b is false.");
+
   }
   
 }

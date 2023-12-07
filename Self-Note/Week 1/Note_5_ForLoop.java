@@ -1,5 +1,8 @@
 public class Note_5_ForLoop {
 
+  // Java for 迴圈是一個控制語句，它可以多次重複執行java程式中的某一部分。
+  // 當一個迴圈裡有迴圈，就稱之為 巢狀迴圈 Nested Loop。
+
   public static void main(String[] args) {
     
     for (int i = 0; i < 10; i++) { // 只要 i 小於 10，會不斷進行這個迴圈，每一個迴圈 i 自行 +1
