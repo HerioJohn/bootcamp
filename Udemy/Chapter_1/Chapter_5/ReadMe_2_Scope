@@ -1,0 +1,12 @@
+變數有效範圍 Scope
+
+在Java當中，變數的有效範圍被稱為 Scope。
+
+Java field 是 variable inside a class，
+Fields 的 scope 是整個 Class。
+每個 field 可以設定 modifier 為 public 或 private。
+
+在 method 內 delcare 的variable 只能由大括號之間的代碼內部進行訪問。
+這些 variables 僅在本地可被辨認，因此稱為局部變量（local variable）。
+
+在 for loop 內部寫的 for（int i = 0...）中的 i 也是一個 local variable

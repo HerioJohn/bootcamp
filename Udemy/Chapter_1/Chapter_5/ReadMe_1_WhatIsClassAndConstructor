@@ -1,0 +1,20 @@
+  // Java Class
+  // 現實世界裡的物件（Object，instance）有自己獨特的狀態（attribute）以及行為（behavior）。
+  // 例如：車子有廠牌，價格，年份等等的 attribute。
+  // 另外，車子有向前走，左轉，右轉，開燈等 behavior。
+  // Java Class 是創建單個物件（object，instance）的藍圖（blueprint）。
+
+  // 創建物件的過程稱為實例化（instantiation）。我們可以透過使用 new 關鍵字，
+  // 來把電腦的記憶體分給新做出來的物件。
+
+  // 自製的Class都是 reference data type（或被稱為 Non-primitive data type）
+
+  // Class Constructor
+  // Java 中的Constructor是一種用於初始化對象的特殊方法。
+  // 創建類的對象時調用構造函數，它可用於設置對象屬性的初始值。
+
+  // 規則為：
+  // 1. Constructor 必須與 Class 名相同。
+  // 2. Constructor 用於製作新的物件。
+  // 3. Constructor 沒有任何返回類型。（無論是 void，int，double，boolean 都不行）
+  // 4. 所有 Class 默認都有 Constructor：如果我們不寫Constructor，Java 會為我們創建一個。但是，你無法為 object 的屬性設置初始值。
