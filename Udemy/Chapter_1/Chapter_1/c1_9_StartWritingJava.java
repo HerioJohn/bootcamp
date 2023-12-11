@@ -1,4 +1,4 @@
-package Udemy.Chapter_1;
+package Udemy.Chapter_1.Chapter_1;
 
 public class c1_9_StartWritingJava {
 

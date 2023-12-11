@@ -1,0 +1,14 @@
+靜態屬性以及方法（Static）
+
+在 Java 中，static 關鍵字主要用於內存管理。
+
+Static 關鍵字用於共享給指定 Class 的所有物件一個共享相同的 variable 或 method。
+另外，我們可以透過 class 本身訪問 static variable 或是執行 static method。
+
+之所以被叫做 “Static”，因為它不是動態的，這意味著它對於 Class 的所有 object 總是相同的。
+因此，任何 static variable 和 method 都屬於 Class 本身。
+當我們使用 static variable 和 method時，我們不需要先從 Class 中 instantiate 任何 object
+
+例如，Java內建的 Math Class 有很多靜態變量和方法
+
+Static Method 能用於 Static Method 裡，也能
