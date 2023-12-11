@@ -1,6 +1,6 @@
-package Udemy.Chapter_1.Chapter_5.Chatper_5_Main;
+package Udemy.Chapter_5.Chatper_5_Main;
 
-import Udemy.Chapter_1.Chapter_5.Chapter_5_Class.c5_55_Soldier;
+import Udemy.Chapter_5.Chapter_5_Class.c5_55_Soldier;
 
 public class c5_55_SoldierMain {
 

@@ -1,4 +1,4 @@
-package Udemy.Chapter_1.Chapter_2;
+package Udemy.Chapter_2;
 
 public class c2_29_Return {
 

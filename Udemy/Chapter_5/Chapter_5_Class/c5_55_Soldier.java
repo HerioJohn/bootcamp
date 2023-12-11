@@ -1,4 +1,4 @@
-package Udemy.Chapter_1.Chapter_5.Chapter_5_Class;
+package Udemy.Chapter_5.Chapter_5_Class;
 
 public class c5_55_Soldier {
   

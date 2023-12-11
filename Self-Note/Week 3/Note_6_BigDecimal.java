@@ -36,10 +36,13 @@ public class Note_6_BigDecimal {
 
     System.out.println("(Correct Approach) bd1 + bd2 is: " + bd1.subtract(bd2)); // 0.7
 
-    BigDecimal bd3 = BigDecimal.valueOf(f1);
-    BigDecimal bd4 = BigDecimal.valueOf(f2);
+    //BigDecimal bd3 = BigDecimal.valueOf(f1);
+    //BigDecimal bd4 = BigDecimal.valueOf(f2);
 
-    System.out.println("(Correct Approach) bd3 + bd4 is: " + bd3.add(bd4)); // 0.40000001341104508
+    BigDecimal bd3 = new BigDecimal(Float.toString(f1));
+    BigDecimal bd4 = new BigDecimal(Float.toString(f2));
+
+    System.out.println("(Correct Approach) bd3 + bd4 is: " + bd3.add(bd4)); // 0.4
 
 
 
