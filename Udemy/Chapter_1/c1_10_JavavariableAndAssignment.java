@@ -16,7 +16,13 @@ public class c1_10_JavavariableAndAssignment {
 
   // constants 變量
 
-  final double PI = 3.14;
+  final double PI = 3.14; // varoable declaration //通常會用全大寫命名
+
+  // 其他命名規範
+
+  // Class 名字用大寫開頭
+  // variable 名字用小寫開頭
+  // constants 名字用全大寫開頭
 
     
   }

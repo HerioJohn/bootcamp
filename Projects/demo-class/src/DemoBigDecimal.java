@@ -22,7 +22,7 @@ public class DemoBigDecimal {
 
     System.out.println("I use static method to create: " + doubleSum(0.1, 0.2));
 
-    System.out.println("result = " + b1); //0.2
+    System.out.println("result = " + bd1); //0.2
 
     System.out.println(bd3.doubleValue()); // 0.3
 

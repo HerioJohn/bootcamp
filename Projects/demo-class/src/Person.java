@@ -33,6 +33,10 @@ public class Person {
     this.lastName = x;
   }
 
+  public void swim() {
+    
+  }
+
   // Getter
   public String getFullName(boolean isCapLetter){
     //return this.firstName + " " + lastName;
