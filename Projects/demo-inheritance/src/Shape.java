@@ -31,6 +31,7 @@ public abstract class Shape {
     BigDecimal total = BigDecimal.valueOf(0);
     for (Shape shape : shapes) {
       total = total.add(BigDecimal.valueOf(shape.area()));
+      // shape.area() -> runtime -> whhich object(circle/ square) -> different implementation of area()
     }
     return total.doubleValue();
   }
@@ -43,10 +44,16 @@ public abstract class Shape {
     System.out.println("s1 area=" + s1.area());
     System.out.println("s1 color=" + s1.getColor());
 
+    Circle c2 = (Circle) s1;
+    System.out.println(c2.getRadius());
+
     Circle c1 = new Circle();
     System.out.println("c1 area=" + c1.area());
     System.out.println("c1 color=" + c1.getColor());
     System.out.println("c1 radius=" + c1.getRadius());
+
+    Shape[] shapes = new Shape[]{new Circle(4.2), new Square(9)};
+    System.out.println(totalArea(shapes));
     
   }
 
