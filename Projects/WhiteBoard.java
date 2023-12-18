@@ -1,5 +1,6 @@
 package Projects;
 
+<<<<<<< HEAD
 class Solution {
 
     public int maxProductDifference(int[] nums) {
@@ -43,4 +44,19 @@ class Solution {
       body.maxProductDifference(new int[]{5,6,2,7,4});
 
     }
+=======
+public class WhiteBoard {
+
+  public static void main(String[] args) {
+    
+    String s1 = "abcd";
+    String s2 = "dcba";
+
+    System.out.println(s1.charAt(0));
+
+
+  }
+
+ 
+>>>>>>> d0cd77930f9697466abbf20f7d07a3dde5c14acc
 }

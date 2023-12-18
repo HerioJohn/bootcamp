@@ -1,6 +1,10 @@
-public class Animal {
+public abstract class Animal {
 
     private int age;
+
+    public Animal() {
+
+    }
 
     public Animal(int age) {
         this.age = age;

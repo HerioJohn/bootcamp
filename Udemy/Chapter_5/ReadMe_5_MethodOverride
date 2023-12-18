@@ -1,0 +1,30 @@
+// Java 繼承
+//
+// Child class 會比 parent class 有更多信息。
+// 通常，如果我們發現... is a... 關係的話，
+// 就可以做 繼承 inheritance，
+// 例如square is a rectangle。
+
+// 要從 Class 繼承，就需要使用 extends 關鍵字。
+
+// 另外，Java只能做單一繼承（single inheritance），
+// 代表一個 class 只能繼承最多一個 parent class
+
+//-----------------------------------------
+
+// Java 的 super 關鍵字 是指 superclass object
+
+// Super 的用途在於：
+
+// 執行 superclass 的 constructor。
+// 執行 superclass 的 method。
+
+//-----------------------------------------
+
+// MethodOverride 是指，
+// 我們可以在 child class 複寫從 parent class 繼承過來的 method。
+
+// 使用時，需用 @Override（注意這個不是 method overloading）
+
+// 另外，所有的 Java Class 都 inherit from java.lang.Object 這個 Class，
+// 只是在語法上沒有任何標註。
