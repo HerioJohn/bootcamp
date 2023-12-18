@@ -1,0 +1,11 @@
+// Inheritance 繼承
+//
+// 在 Java 中，可以將 attributes 和 methods 從一個 class 繼承到另一個 class。
+// 這個過程稱為 inheritance。
+//
+// 例如：我們可以製作一個 People Class 當作父親，
+// 而 student class 以及 Teacher class 都可以繼承自 People Class。
+// Inheritance 可以避免寫過多重複的程式碼。
+//
+// 1. subclass（子類）- 從另一個 class 繼承的 class，也被稱為 child class。
+// 2. superclass（父類）- 繼承自的 class，也被稱為 parent class。
