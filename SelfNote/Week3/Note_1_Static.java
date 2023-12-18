@@ -1,3 +1,5 @@
+package SelfNote.Week3;
+
 public class Note_1_Static {
 
   // 需要配合 Cat.java 
