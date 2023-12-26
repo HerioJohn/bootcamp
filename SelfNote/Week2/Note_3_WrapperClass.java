@@ -21,10 +21,19 @@ public class Note_3_WrapperClass {
   // autoboxing (Primitive -> Wrapper)
   int i = 20;
   Integer new_i = new Integer(i); // new_i = 20
-  Integer b = Integer.valueOf(3); //b = 3
+  Integer j = Integer.valueOf(3); // j = 3
 
   // unboxing (Wrapper -> Primitive)
   Integer x = 50;
   int y = x.intValue(); // y = 50
+
+  // Create reference data type using wrapper class
+  Boolean a = true;
+  Character b = '@';
+  Integer c = 123;
+  Double d = 3.14;
+  String e = "Tommy"; // String is already a reference data type
+
+  
   
 }

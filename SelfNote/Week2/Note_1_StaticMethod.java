@@ -15,7 +15,7 @@ public class Note_1_StaticMethod {
     // Static Method: Class Itself
     sayHi();
 
-    // Non-Static Method: Instance of Class
+    // Non-Static Method - Instance Method: Instance of Class
     Note_1_StaticMethod n = new Note_1_StaticMethod();
     n.sayPancake();
 

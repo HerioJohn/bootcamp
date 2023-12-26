@@ -1,3 +1,5 @@
+package SelfNote.Week3;
+
 public class Note_2_Math {
 
   public static void main(String[] args) {

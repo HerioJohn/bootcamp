@@ -1,3 +1,5 @@
+package SelfNote.Week3;
+
 public class Note_3_StringNotImmutable {
 
   public static void main(String[] args) {

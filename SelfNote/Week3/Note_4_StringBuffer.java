@@ -1,3 +1,5 @@
+package SelfNote.Week3;
+
 public class Note_4_StringBuffer {
 
   /*
