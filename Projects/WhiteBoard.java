@@ -1,62 +1,13 @@
-package Projects;
+import java.util.List;
 
-<<<<<<< HEAD
 class Solution {
+  public boolean isAcronym(List<String> words, String s) {
 
-    public int maxProductDifference(int[] nums) {
+      if (s.length() == words.size()) {
 
-        int arraylength = nums.length;
-        int max_1 = nums[0];
-        int max_2 = nums[0];
-        int min_1 = nums[0];
-        int min_2 = nums[0];
+      }
 
-        for (int i = 0; i < nums.length; i++) {
-
-          //System.out.println("Debug max_1: " + max_1);
-
-            if (max_1 < nums[i]) {
-              max_2 = max_1;
-              max_1 = nums[i];
-            }
-
-             if (min_1 > nums[i]) {
-              min_2 = min_1;
-              min_1 = nums[i];  
-            }
-
-        }
-
-
-        System.out.println("max_1 = " + max_1);
-        System.out.println("max_2 = " + max_2);
-        System.out.println("min_1 = " + min_1);
-        System.out.println("min_2 = " + min_2);
-
-        return (max_1 * max_2) - (min_1 * min_2) ;
-        
-    }
-
-    public static void main(String[] args) {
-
-      Solution body = new Solution();
+      return true;
       
-      body.maxProductDifference(new int[]{5,6,2,7,4});
-
-    }
-=======
-public class WhiteBoard {
-
-  public static void main(String[] args) {
-    
-    String s1 = "abcd";
-    String s2 = "dcba";
-
-    System.out.println(s1.charAt(0));
-
-
   }
-
- 
->>>>>>> d0cd77930f9697466abbf20f7d07a3dde5c14acc
 }
