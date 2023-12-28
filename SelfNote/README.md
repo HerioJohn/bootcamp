@@ -57,13 +57,10 @@ Note 6 - Difference Btween equals and ==
 ## Week 4
 
 Note 1 - Parent class (Normal Class and Abstract Class). **What is Their Difference**
-Note 2 - Extends (inheritance)
-  - pros and cons
-- implements
-  - Interface (100% abstract)
-  - Make sure you can create, modify, understand impact between class and interface
-  - pros and cons
-- Object.class (Parent) & Polymorphism
+Note 2 - Extends (inheritance) - pros and cons
+Note 3 - Interface (100% abstract) - pros and cons
+Note 4 - Object.class (Parent) & Polymorphism
+
   - Object Reference Type vs Object Type
   - What if "Object Reference Type" is a parent of "Object Type"?
   - What if "Object Type" is a parent of "Object Reference Type"?
@@ -73,11 +70,16 @@ Note 2 - Extends (inheritance)
     - Objects.hash(...)
 
 ## Week 5
-- DS 
-  - List - ArrayList, LinkedList 
-  - Queue - LinkedList, ArrayDeque 
-  - Set - HashSet
-  - Map - HashMap
-  - Stack, PriorityQueue (less important)
+
+- DS （Data Structure）
+
+  Note 1 - List - ArrayList
+  Note 2 - LinkedList 
+  Note 3 - Queue - LinkedList, ArrayDeque 
+  Note 4 - Set & HashSet
+  Note 5 - Map - HashMap
+  Note 6 - Stack, PriorityQueue (less important)
+  Note 7 - Enum Class
+
 - Hash DS (equals() & hashCode())
 - Comparator & Comparable (Interface Control on method parameter - Collections.sort())
