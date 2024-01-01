@@ -1,4 +1,4 @@
-package SelfNote.Week4.Note_1_Inheritance;
+package SelfNote.Week4.Note_1_Extends;
 
 public class Bicycle extends Vehicle{
 

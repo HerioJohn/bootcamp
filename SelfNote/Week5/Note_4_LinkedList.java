@@ -2,15 +2,14 @@ package SelfNote.Week5;
 
 import java.util.LinkedList;
 
-
-public class Note_2_LinkedList{
+public class Note_4_LinkedList{
 	
  public static void main(String[] args) {
   // *****************************************************
   
   // LinkedList =  Nodes are in 2 parts (data + address)
-  //                        Nodes are in non-consecutive memory locations
-  //                        Elements are linked using pointers
+  //               Nodes are in non-consecutive memory locations
+  //               Elements are linked using pointers
             
   //    advantages?
   //    1. Dynamic Data Structure (allocates needed memory while running)
@@ -35,36 +34,37 @@ public class Note_2_LinkedList{
   // *****************************************************
 
 LinkedList<String> linkedList = new LinkedList<String>();
-		/*
+		
+    /* 
 		// LinkedList as a Stack
 		linkedList.push("A");
 		linkedList.push("B");
 		linkedList.push("C");
 		linkedList.push("D");
 		linkedList.push("F");
-		linkedList.pop();
-		*/
+		linkedList.pop(); // Remove First Node
+		*/	
+
 		// LinkedList as a Queue
 		linkedList.offer("A");
 		linkedList.offer("B");
 		linkedList.offer("C");
 		linkedList.offer("D");
 		linkedList.offer("F");
-		//linkedList.poll();
+		//linkedList.poll(); // Remove First Node
 		
-		//linkedList.add(4, "E");
-		//linkedList.remove("E");
-		//System.out.println(linkedList.indexOf("F"));
+		linkedList.add(4, "E");
+		System.out.println(linkedList.indexOf("F")); // 5
 		
 		
-		//System.out.println(linkedList.peekFirst());
-		//System.out.println(linkedList.peekLast());
-		//linkedList.addFirst("0");
-		//linkedList.addLast("G");
+		System.out.println("The First Node is: " + linkedList.peekFirst());
+		System.out.println("The Last Node is: " + linkedList.peekLast());
+		linkedList.addFirst("0");
+		linkedList.addLast("Z");
 		//String first = linkedList.removeFirst();
 		//String last = linkedList.removeLast();
 		
-		System.out.println(linkedList);
+		System.out.println(linkedList); // [0, A, B, C, D, E, F, Z]
 		
 	}
 }

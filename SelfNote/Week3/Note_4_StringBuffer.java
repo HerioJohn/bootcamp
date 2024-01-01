@@ -57,9 +57,13 @@ public class Note_4_StringBuffer {
 
     System.out.println(sb.length()); //30
 
+    System.out.println(sb.deleteCharAt(0)); // ello World, my name is Tommy.
+
     sb.setLength(50);
 
     System.out.println(sb.length()); //50
+
+    String str = sb.toString(); // convert to String
 
   }
   

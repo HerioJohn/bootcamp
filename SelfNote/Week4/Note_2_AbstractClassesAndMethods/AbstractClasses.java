@@ -1,4 +1,4 @@
-package SelfNote.Week4.Note_1_AbstractClassesAndMethods;
+package SelfNote.Week4.Note_2_AbstractClassesAndMethods;
 
 public class AbstractClasses {
 

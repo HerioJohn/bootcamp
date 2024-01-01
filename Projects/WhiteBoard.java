@@ -1,13 +1,16 @@
-import java.util.List;
-
 class Solution {
-  public boolean isAcronym(List<String> words, String s) {
+    public int finalValueAfterOperations(String[] operations) {
 
-      if (s.length() == words.size()) {
+        int number = 0;
 
-      }
+        for (int i = 0; i < operations.length; i++) {
+            if (operations[i].equals("--X") & operations[i].equals("X--"))
+            number --;
+            else
+            number ++;
+        }
 
-      return true;
-      
-  }
+        return number;
+        
+    }
 }

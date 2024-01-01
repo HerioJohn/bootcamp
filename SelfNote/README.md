@@ -9,8 +9,8 @@
 - Note 4 - **operator (>, <, >=, <=, ==, !, &&, ||)**
 - Note 5 - **for loop + if else + break & continue**
 - Note 6 - **While loop**
-- Note 7 - Nested loop - lower priority
-- Note 8 - Switch - lower priority
+- Note 7 - Nested loop
+- Note 8 - Switch
 
 #### **Advanced**
 N/A
@@ -27,13 +27,18 @@ N/A
 - Note 7 - ASCII - char/ int
 - Note 8 - Pass by reference/ Pass by value (low priority)
 - Note 9 - Do-while Loop (low priority)
+- Note 10 - Scanner
+- Note 11 - Random
+
+[Bonus]
+
+- Array (John's Lesson)
 
 #### **Advanced**
 - Sorting - Bubble, insertion
 - String Literal
 - Integer Cache
 - Stack & Heap memory (object)
-- Scanner, Random
 
 ## Week 3
 
@@ -53,11 +58,20 @@ Note 3 - String is not immutable
 Note 4 - String Buffer
 Note 5 - Big Decimal
 Note 6 - Difference Btween equals and ==
+Note 7 - Random
+Note 8 - Scanner
+
+[Bonus]
+
+- Constructor (John's Lesson)
+- Static (John's Lesson)
+- GetterSetter (John's Lesson)
+- Understanding and Implementing .equals()
 
 ## Week 4
 
-Note 1 - Parent class (Normal Class and Abstract Class). **What is Their Difference**
-Note 2 - Extends (inheritance) - pros and cons
+Note 1 - Extends (inheritance) - pros and cons
+Note 2 - Parent class (Normal Class and Abstract Class). **What is Their Difference**
 Note 3 - Interface (100% abstract) - pros and cons
 Note 4 - Object.class (Parent) & Polymorphism
 
@@ -68,6 +82,13 @@ Note 4 - Object.class (Parent) & Polymorphism
   - equals() & hashCode()
     - Objects.equals(...)
     - Objects.hash(...)
+
+[Bonus]
+
+- Inheritance (John's Lesson)
+- Final (John's Lesson)
+- Interfaces (John's Lesson)
+- ConceptOfOOC
 
 ## Week 5
 
@@ -83,3 +104,11 @@ Note 4 - Object.class (Parent) & Polymorphism
 
 - Hash DS (equals() & hashCode())
 - Comparator & Comparable (Interface Control on method parameter - Collections.sort())
+
+## Week 6
+
+[Bonus]
+
+- Exception Handling - Try / Catch / Finally （John's Lesson）
+- Understanding and Implementing .toString() （John's Lesson）
+- DebugEasier （John's Lesson） 

@@ -1,4 +1,4 @@
-package SelfNote.Week4.Note_1_Inheritance;
+package SelfNote.Week4.Note_1_Extends;
 
 public class Main {
 
@@ -11,7 +11,7 @@ public class Main {
     System.out.println(car_1.speed); // 0
     System.out.println(bike_1.speed); // 0
 
-    System.out.println(car_1.doors); // 4
+    System.out.println(car_1.door); // 4
     System.out.println(bike_1.handle); // 2
     
 
