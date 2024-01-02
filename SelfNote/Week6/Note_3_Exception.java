@@ -3,7 +3,7 @@ package SelfNote.Week6;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Note_1_Exception {
+public class Note_3_Exception {
 
   // exception = an event that occurs during the execution of a program that,
   //             disrupts the normal flow of instructions

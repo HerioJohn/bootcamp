@@ -1,0 +1,14 @@
+Lambda Expression 是一小段代碼，它接受參數並返回一個值。
+
+1. 最簡單的 lambda expression 包含一個參數和一個 expression （expression 會自動被 return）：
+   parameter -> Expression
+
+2. 如果我們有多個參數，則需要將參數放入小括號中（expression 會自動被 return）：
+   （parameter1,parameter2） -> expression
+
+3. expression 會是只能包含一行的程式碼，所以無法使用 variables，assignments，for loop，或是 if statement。
+   我們可以使用大括號，但若要 reutrn 某個值，則必須使用 return keyword。
+
+(parameter1,parameter2) -> {code block}
+
+Lambda Expression 通常作為參數傳遞給函數，例如 forEach method 的參數。
