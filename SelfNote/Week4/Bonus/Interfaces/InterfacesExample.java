@@ -13,5 +13,5 @@ public class InterfacesExample {
   private static void makeTheNoise(MakeNoise makesNoise) { // take in Interface
     makesNoise.makeNoise();
   }
-  
+   
 }

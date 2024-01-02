@@ -75,6 +75,15 @@ Note 2 - Parent class (Normal Class and Abstract Class). **What is Their Differe
 Note 3 - Interface (100% abstract) - pros and cons
 Note 4 - Object.class (Parent) & Polymorphism
 
+- extends
+  - Parent class (Normal Class and Abstract Class). **Their Difference**
+  - Make sure you know the limitations of using "extends"
+  - pros and cons
+- implements
+  - Interface (100% abstract)
+  - Make sure you can create, modify, understand impact between class and interface
+  - pros and cons
+- Object.class (Parent) & Polymorphism
   - Object Reference Type vs Object Type
   - What if "Object Reference Type" is a parent of "Object Type"?
   - What if "Object Type" is a parent of "Object Reference Type"?
@@ -94,13 +103,20 @@ Note 4 - Object.class (Parent) & Polymorphism
 
 - DS （Data Structure）
 
+  [List]
   Note 1 - List - ArrayList
   Note 2 - LinkedList 
+  [Queue]
   Note 3 - Queue - LinkedList, ArrayDeque 
+  [Set]
   Note 4 - Set & HashSet
+  [Map]
   Note 5 - Map - HashMap
+  [Stack]
   Note 6 - Stack, PriorityQueue (less important)
+
   Note 7 - Enum Class
+  Note 8 - Comparator & Comparable (Collections.sort)
 
 - Hash DS (equals() & hashCode())
 - Comparator & Comparable (Interface Control on method parameter - Collections.sort())
@@ -108,6 +124,9 @@ Note 4 - Object.class (Parent) & Polymorphism
 ## Week 6
 
 [Bonus]
+
+- Generics
+- Lambda
 
 - Exception Handling - Try / Catch / Finally （John's Lesson）
 - Understanding and Implementing .toString() （John's Lesson）
