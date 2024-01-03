@@ -1,22 +1,25 @@
 # Key Notes per Week
 
-## Week 1 
-#### **Basics**
+## ---------------------------------------------------- [Week 1] ----------------------------------------------------
 
-- Note 1 - **Primitive - 8 types**
-- Note 2 - **String methods**
-- Note 3 - **if, else if, else**
-- Note 4 - **operator (>, <, >=, <=, ==, !, &&, ||)**
-- Note 5 - **for loop + if else + break & continue**
-- Note 6 - **While loop**
-- Note 7 - Nested loop
-- Note 8 - Switch
+- Note 1 - Introduction to Java (Not Important)
 
-#### **Advanced**
-N/A
+- Note 2 - Data Types I 
+            - Local Variables
+            - Primitives Basics
+            - String Basics
 
-## Week 2
-#### **Basics**
+- Note 3 - Operators (>=, <=, == ...etc)
+
+- Note 4 - Conditionals
+
+- Note 5 - Loops I
+
+[Bonus]
+
+- Switch
+
+## ---------------------------------------------------- [Week 2] ----------------------------------------------------
 
 - Note 1 - **Methods (Static)**
 - Note 2 - **Array (17 types)**
@@ -74,6 +77,11 @@ Note 1 - Extends (inheritance) - pros and cons
 Note 2 - Parent class (Normal Class and Abstract Class). **What is Their Difference**
 Note 3 - Interface (100% abstract) - pros and cons
 Note 4 - Object.class (Parent) & Polymorphism
+- Abstraction
+- Enum
+- Encapsulation
+- Object Oritented Programming
+- String-typed Statically-typed
 
 - extends
   - Parent class (Normal Class and Abstract Class). **Their Difference**
@@ -101,22 +109,13 @@ Note 4 - Object.class (Parent) & Polymorphism
 
 ## Week 5
 
-- DS （Data Structure）
-
-  [List]
-  Note 1 - List - ArrayList
-  Note 2 - LinkedList 
-  [Queue]
-  Note 3 - Queue - LinkedList, ArrayDeque 
-  [Set]
-  Note 4 - Set & HashSet
-  [Map]
-  Note 5 - Map - HashMap
-  [Stack]
-  Note 6 - Stack, PriorityQueue (less important)
-
-  Note 7 - Enum Class
-  Note 8 - Comparator & Comparable (Collections.sort)
+- Data Structures & Algorithms
+- Big O Notation
+- Collection & Complexity
+- Recursion
+- Generics
+- Collections
+- Exceptions
 
 - Hash DS (equals() & hashCode())
 - Comparator & Comparable (Interface Control on method parameter - Collections.sort())
@@ -125,8 +124,18 @@ Note 4 - Object.class (Parent) & Polymorphism
 
 [Bonus]
 
-- Generics
 - Lambda
+- Stream
+- Optional
+- Type Inference
+- Switch Expression
+- Records
+- Nested Class & Builder Pattern
+- Factory Pattern
+- Threads
+- Thread-safe, Atomic & synchronized
+- Vector & ArrayList
+- Hashtable & HashMap
 
 - Exception Handling - Try / Catch / Finally （John's Lesson）
 - Understanding and Implementing .toString() （John's Lesson）

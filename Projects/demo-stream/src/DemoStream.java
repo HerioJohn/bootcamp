@@ -1,27 +1,18 @@
-
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class DemoStream {
-    public static void main(String[] args) throws Exception {
-        
-        List<String> strings = new ArrayList<>(List.of("hello", "world", "vincent", "oscar"));
-        List<String> result = new ArrayList<>();
-        // filter out string withh length <= 5,
+  public static void main(String[] args){
 
-        for (String s : strings) {
-            if (s.length() <= 5) {
-                result.add(s);
-            }
-        }
+    List<Staff> staffs = new ArrayList<>(List.of(new Staff("John", 20000.0d, new Staff("John", 15000.0d))));
 
-        System.out.println(result);
-
-        result = strings.stream().filter(s -> s.length() > 5).collect(Collectors.toList());
-        System.out.println(result);
-
+    double sum = 0.0d;
+    for (Staff staff : staffs) {
+      sum += staff.getSalary();
     }
+    System.out.println("max salary=" + max);
+
+
+  }
 }
